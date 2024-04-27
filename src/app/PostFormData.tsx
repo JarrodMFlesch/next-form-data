@@ -18,7 +18,7 @@ export const PostFormData = () => {
     );
 
     try {
-      const res = await fetch("/test", {
+      const res = await fetch("/api/test", {
         method: "post",
         body: dataToSend,
       });
